@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_worldclock">
+
+<!--    <fragment-->
+<!--        android:id="@+id/navigation_home"-->
+<!--        android:name="com.example.alarm20.ui.alarm.AlarmFragment"-->
+<!--        android:label="Alarm"-->
+<!--        tools:layout="@layout/fragment_alarm" />-->
+
+    <fragment
+        android:id="@+id/navigation_worldclock"
+        android:name="com.example.alarm20.ui.worldclock.WorldclockFragment"
+        android:label="World Clock"
+        tools:layout="@layout/fragment_worldclock" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.alarm20.ui.stopwatch.StopwatchFragment"
+        android:label="Stopwatch"
+        tools:layout="@layout/fragment_stopwatch" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.alarm20.ui.timer.TimerFragment"
+        android:label="Timer"
+        tools:layout="@layout/fragment_timer" />
+
+</navigation>
