@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">alarm2.0</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_worldclock">worldclock</string>
+    <string name="alarm">Alarm</string>
+    <string name="world_clock">World Clock</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="timer">Timer</string>
+    <string name="string_timer" />
+    <string name="string_world_clock">worldclock</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="set">Set</string>
+    <string name="reset">reset</string>
+    <string name="_00_00">00:00</string>
+</resources>
