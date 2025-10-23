@@ -49,7 +49,7 @@ public class AlarmFragment extends Fragment {
                 calendar.set(Calendar.HOUR_OF_DAY, alarmTimePicker.getCurrentHour());
                 calendar.set(Calendar.MINUTE, alarmTimePicker.getCurrentMinute());
                 Intent intent = new Intent(getActivity(), AlarmReceiver.class);
-                 pendingIntent.getBroadcast(getActivity(), 0, intent, 0);
+                 pendingIntent.getBroadcast(getActivity(), 0, intent, PendingIntent.FLAG_IMMUTABLE);
                 time = (calendar.getTimeInMillis() - (calendar.getTimeInMillis() % 60000));
                 if (System.currentTimeMillis() > time) {
                     // setting time as AM and PM
